@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Celebrity Do You Like?</h1>
+
+      <p>Enter information about yourself, and see which celebrity, fictional character, or public figure you are most compatible with!</p>
+
+      <form id="info">
+        <label for="age">Age:</label>
+        <input id="age" type="text">
+        <label for="gender">Gender:</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="realornot">Real or Not:</label>
+        <select id="realornot">
+          <option value="real">Real</option>
+          <option value="fictional">Fictional</option>
+        </select>
+        <label for="genre">Genre:</label>
+        <select id="genre">
+          <option value="fantasy">Fantasy</option>
+          <option value="comedy">Comedy</option>
+          <option value="scifi">Scifi</option>
+          <option value="drama">Drama</option>
+          <option value="romcom">Romcom</option>
+          <option value="action">Action</option>
+        </select>
+
+        <button type="submit" class="btn">Calculate my Celebrity</button>
+      </form>
+
+
+      <div class="result">
+          <div id="bradpitt">
+            <p>Your celebrity is Brad Pitt!</p>
+          </div>
+          <div id="jackblack">
+            <p>Your celebrity is Jack Black!</p>
+          </div>
+          <div id="darthvader">
+            <p>Your celebrity is Darth Vader!</p>
+          </div>
+          <div id="cateblanchett">
+            <p>Your celebrity is Cate Blanchett!</p>
+          </div>
+          <div id="abbottandcostello">
+            <p>Your celebrity is Abbot and Costello!</p>
+          </div>
+    </div>
+  </body>
+</html>
